@@ -1,0 +1,15 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-vessellocator-test-94509-authRole",
+            "UnauthRoleArn": "arn:aws:iam::975740659514:role/amplify-vessellocator-test-94509-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::975740659514:role/amplify-vessellocator-test-94509-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-vessellocator-test-94509-deployment",
+            "UnauthRoleName": "amplify-vessellocator-test-94509-unauthRole",
+            "StackName": "amplify-vessellocator-test-94509",
+            "StackId": "arn:aws:cloudformation:eu-central-1:975740659514:stack/amplify-vessellocator-test-94509/a053fc70-5ebd-11ea-9208-0a78571d47e2",
+            "AmplifyAppId": "d34m8tptwodep3"
+        }
+    }
+}

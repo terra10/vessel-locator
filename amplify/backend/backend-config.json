@@ -1,0 +1,37 @@
+{
+    "api": {
+        "vessellocator": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "authConfig": {
+                    "additionalAuthenticationProviders": [],
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY",
+                        "apiKeyConfig": {
+                            "description": "Vessel Locator Api Key",
+                            "apiKeyExpirationDays": "31"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "function": {
+        "addVessel": {
+            "service": "Lambda",
+            "providerPlugin": "awscloudformation",
+            "build": true,
+            "dependsOn": [
+                {
+                    "category": "api",
+                    "resourceName": "vessellocator",
+                    "attributes": [
+                        "GraphQLAPIIdOutput",
+                        "GraphQLAPIEndpointOutput"
+                    ]
+                }
+            ]
+        }
+    }
+}

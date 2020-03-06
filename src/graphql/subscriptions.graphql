@@ -1,0 +1,49 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateVessel {
+  onCreateVessel {
+    id
+    name
+    ship_type
+    latitude
+    longitude
+    heading
+    speed
+    rot
+    accuracy
+    course
+    navigational_status
+    destination
+  }
+}
+subscription OnUpdateVessel {
+  onUpdateVessel {
+    id
+    name
+    ship_type
+    latitude
+    longitude
+    heading
+    speed
+    rot
+    accuracy
+    course
+    navigational_status
+    destination
+  }
+}
+subscription OnDeleteVessel {
+  onDeleteVessel {
+    id
+    name
+    ship_type
+    latitude
+    longitude
+    heading
+    speed
+    rot
+    accuracy
+    course
+    navigational_status
+    destination
+  }
+}

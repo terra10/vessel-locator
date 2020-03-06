@@ -1,0 +1,40 @@
+# this is an auto generated file. This will be overwritten
+query GetVessel($id: ID!) {
+  getVessel(id: $id) {
+    id
+    name
+    ship_type
+    latitude
+    longitude
+    heading
+    speed
+    rot
+    accuracy
+    course
+    navigational_status
+    destination
+  }
+}
+query ListVessels(
+  $filter: ModelVesselFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listVessels(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      ship_type
+      latitude
+      longitude
+      heading
+      speed
+      rot
+      accuracy
+      course
+      navigational_status
+      destination
+    }
+    nextToken
+  }
+}

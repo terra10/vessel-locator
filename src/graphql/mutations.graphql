@@ -1,0 +1,58 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateVessel(
+  $input: CreateVesselInput!
+  $condition: ModelVesselConditionInput
+) {
+  createVessel(input: $input, condition: $condition) {
+    id
+    name
+    ship_type
+    latitude
+    longitude
+    heading
+    speed
+    rot
+    accuracy
+    course
+    navigational_status
+    destination
+  }
+}
+mutation UpdateVessel(
+  $input: UpdateVesselInput!
+  $condition: ModelVesselConditionInput
+) {
+  updateVessel(input: $input, condition: $condition) {
+    id
+    name
+    ship_type
+    latitude
+    longitude
+    heading
+    speed
+    rot
+    accuracy
+    course
+    navigational_status
+    destination
+  }
+}
+mutation DeleteVessel(
+  $input: DeleteVesselInput!
+  $condition: ModelVesselConditionInput
+) {
+  deleteVessel(input: $input, condition: $condition) {
+    id
+    name
+    ship_type
+    latitude
+    longitude
+    heading
+    speed
+    rot
+    accuracy
+    course
+    navigational_status
+    destination
+  }
+}

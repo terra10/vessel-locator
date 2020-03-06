@@ -1,0 +1,14 @@
+type Vessel @model {
+  id: ID!
+  name: String!
+  ship_type: String
+  latitude: Float
+  longitude: Float
+  heading: Float
+  speed: Float
+  rot: String
+  accuracy: Float
+  course: Float
+  navigational_status: String
+  destination: String
+}

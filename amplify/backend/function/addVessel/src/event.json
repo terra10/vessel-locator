@@ -1,0 +1,15 @@
+{
+  "input": {
+    "name": "Herald of Winter",
+    "ship_type": "Cargo",
+    "latitude" : 52.020286,
+    "longitude": 3.860751,
+    "heading": 89,
+    "speed": 10.5,
+    "rot": "Sattelite",
+    "accuracy": 0.0,
+    "course": 89,
+    "navigational_status": "Underway using engine",
+    "destination": "Rotterdam cargo"
+  }
+}
